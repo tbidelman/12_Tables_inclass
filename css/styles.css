@@ -1,0 +1,23 @@
+/*
+
+	Tables Code Along!
+
+*/
+
+th, td {
+	width: 120px;
+	text-align: left;
+	border: 1px black solid;
+}
+
+table {
+	border-collapse: collapse; /* will get rid of default spacing */
+	empty-cells: hide; /* will still keep the border without the data */
+
+}
+
+td:hover {
+	background-color: #D9D9D9;
+}
+
+
